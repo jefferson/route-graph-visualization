@@ -1,0 +1,35 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/get",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "httpbin.org",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/get/",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 15
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "QuotaExceededMessage": "Customize Tips!",
+        "Period": "60s",
+        "PeriodTimespan": 1,
+        "Limit": 10
+      },
+      "HttpHandlerOptions": {
+        "UseTracing": true
+      }
+    }
+  ],
+  "GlobalConfiguration": {}
+}

@@ -1,0 +1,19 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sample {
+    height: 800px;
+    width: 100%;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.19);
+}
+.flowchart-operator {
+    width: auto;
+}

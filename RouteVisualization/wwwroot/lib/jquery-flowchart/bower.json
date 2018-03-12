@@ -1,0 +1,30 @@
+{
+  "name": "jquery.flowchart",
+  "version": "1.1.1",
+  "description": "JQuery UI plugin that allows you to draw a flow chart.",
+  "main": [
+    "jquery.flowchart.js",
+    "jquery.flowchart.css"
+  ],
+  "authors": [
+    "Sébastien Drouyer"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "flowchart",
+    "flow",
+    "chart",
+    "graph",
+    "ui",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "homepage": "https://github.com/vjarysta/jquery.flowchart",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

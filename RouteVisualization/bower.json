@@ -1,0 +1,8 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "jquery-ui": "1.12.1",
+    "jquery-flowchart": "https://github.com/vjarysta/jquery.flowchart.git"
+  }
+}
