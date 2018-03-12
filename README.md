@@ -7,11 +7,19 @@ In this first moment the ideia is an static way for show routes in APi Gateway b
 
 ![enter image description here](https://github.com/jefferson/route-graph-visualization/blob/master/RouteVisualization/wwwroot/images/concept.png?raw=true)
 
-# Futures features
+# To Do
 
- - Show Downstream routes
- - Show UpsTream routes
- - Show custom properties
+ - [ ] Show Downstream routes
+ - [ ] Show UpsTream routes
+ - [ ] Show custom properties
+ - [ ] AUtomatic Test
+ 
+ # Done
+ 
+ - [ ] Show Downstream routes
+ - [ ] Show UpsTream routes
+ - [ ] Show custom properties
+ - [ ] Add automatic Tests
 
 ## Contributing
 
